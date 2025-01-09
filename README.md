@@ -1,12 +1,13 @@
-my-app/
-├─ node_modules/
-├─ public/
-│  ├─ favicon.ico
-│  ├─ index.html
-│  ├─ robots.txt
-├─ src/
-│  ├─ index.css
-│  ├─ index.js
-├─ .gitignore
-├─ package.json
-├─ README.md
+
+### Source files
+
+    .
+    ├── index.php                   
+    ├── src/                   
+    │    ├── Validator.php             # Switch case to determine the type of the validation
+    │    ├── EmailValidator.php        # Email validator class
+    │    ├── CPFValidator.php          # CPF validator class
+    │    ├── CNPJValidator.php         # CNPJ validator class
+    │    └── CEPValidator.php          # CEP validator class
+    └── test/                     
+         └── index.php                 # Test class
