@@ -1,10 +1,12 @@
-/data-validator-api
-  ├── index.php
-  ├── src/
-  │    ├── Validator.php
-  │    ├── EmailValidator.php
-  │    ├── CPFValidator.php
-  │    ├── CNPJValidator.php
-  │    └── CEPValidator.php
-  └── test/
-       └── index.php
+my-app/
+├─ node_modules/
+├─ public/
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ robots.txt
+├─ src/
+│  ├─ index.css
+│  ├─ index.js
+├─ .gitignore
+├─ package.json
+├─ README.md
